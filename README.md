@@ -1,5 +1,10 @@
 # Cardinality Learned Optimizer
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-ee4c2c?logo=pytorch&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-336791?logo=postgresql&logoColor=white)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 A full implementation of the **Neo/Bao query optimizer loop** for PostgreSQL:
 
 - **GNN cardinality estimator** — Child-Sum TreeLSTM trained on real EXPLAIN ANALYZE output to predict true cardinalities at every plan operator
